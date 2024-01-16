@@ -18,3 +18,5 @@ typeof演算子。参照型に対しては一様に「object」という値を�
 3.8 演算子の優先順位と結合測
 4.1 制御構文
 条件分岐、繰り返し。for in, for of。forEach
+4.4 ループの制御。break, continue, label:
+try...catch...finally, throw, Strictモード, debugger
