@@ -20,3 +20,6 @@ typeof演算子。参照型に対しては一様に「object」という値を�
 条件分岐、繰り返し。for in, for of。forEach
 4.4 ループの制御。break, continue, label:
 try...catch...finally, throw, Strictモード, debugger
+5.1 オブジェクト new演算子
+メソッド・プロパティ
+Stringオブジェクト。変換、取得、検索、除去、置換、分割、補足、繰り返し、正規化
