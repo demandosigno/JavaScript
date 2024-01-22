@@ -23,3 +23,4 @@ try...catch...finally, throw, Strictモード, debugger
 5.1 オブジェクト new演算子
 メソッド・プロパティ
 Stringオブジェクト。変換、取得、検索、除去、置換、分割、補足、繰り返し、正規化
+5.3 数値リテラル Numberオブジェクト、Dateオブジェクト

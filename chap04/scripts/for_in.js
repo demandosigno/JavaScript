@@ -5,5 +5,6 @@ let data = {
 };
 
 for (let key in data) {
-  console.log(`${key} = ${data[key]}`);
+  // console.log(`${key} = ${data[key]}`);
+  console.log('hoge');
 }
