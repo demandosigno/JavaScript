@@ -6,12 +6,12 @@ console.log(list.pop());
 console.log(list.shift());
 console.log(list);
 
-// list.push(['杉', '桐']);
-// console.log(list);
+list.push(['杉', '桐']);
+console.log(list);
 
-// list.push(...['杉', '桐']);
-// console.log(list);
+list.push(...['杉', '桐']);
+console.log(list);
 
-// console.log(list.concat(['杉', '桐']))
+console.log(list.concat(['杉', '桐']))
 
-// console.log(list.concat(['杉', '桐'], ['杏', '柿']));
+console.log(list.concat(['杉', '桐'], ['杏', '柿']));
