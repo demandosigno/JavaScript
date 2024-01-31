@@ -6,10 +6,10 @@ let books = [
   { title: 'これからはじめるVue.js実践入門', price: 3740 },
 ];
 
-console.log(books.some(function(value) {
+console.log(books.some(function (value) {
   return value.price < 3000;
 }));
 
-// console.log(books.every(function(value) {
-//   return value.price < 3000;
-// }));
+console.log(books.every(function (value) {
+  return value.price < 3000;
+}));

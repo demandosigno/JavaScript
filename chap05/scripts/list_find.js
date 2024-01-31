@@ -6,10 +6,10 @@ let books = [
   { title: 'これからはじめるVue.js実践入門', price: 3740 },
 ];
 
-console.log(books.find(function(value) {
+console.log(books.find(function (value) {
   return value.title.startsWith('Bootstrap');
 }));
 
-// console.log(books.findIndex(function(value) {
-//   return value.title.startsWith('Bootstrap');
-// }));
+console.log(books.findIndex(function (value) {
+  return value.title.startsWith('Bootstrap');
+}));
