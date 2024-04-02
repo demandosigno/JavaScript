@@ -8,3 +8,7 @@ data.forEach(function (value, index, array) {
 data.forEach(function (value) {
   console.log(value);
 });
+
+data.forEach(function (a) {
+  console.log(a);
+});
