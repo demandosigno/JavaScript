@@ -8,4 +8,5 @@ console.log(sym1 === sym2);
 
 // console.log(sym1 + '');
 // console.log(sym1 - 0);
-// console.log(typeof !!sym1);
+console.log(!!sym1);
+console.log(typeof !!sym1);

@@ -6,5 +6,5 @@ let data = `{
 eval(`var obj = ${data}`);
 console.log(obj);
 
-// let str = 'console.log("eval関数")';
-// eval(str);
+let str = 'console.log("eval関数")';
+eval(str);
