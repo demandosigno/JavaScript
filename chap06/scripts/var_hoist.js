@@ -1,8 +1,9 @@
 var scope = 'Global Scope';
 
 function getValue() {
-  console.log(scope);
-  var scope = 'Block Scope';
+  console.log(scope); // scope_collision.jsに追記。幾つになる？
+  // var scope = 'Block Scope';
+  let scope = 'Block Scope';
   return scope;
 }
 

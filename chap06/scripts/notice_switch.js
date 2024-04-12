@@ -1,4 +1,4 @@
-switch(x) {
+switch (x) {
   case 0:
     let value = 'x:0';
     break;

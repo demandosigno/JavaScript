@@ -1,5 +1,6 @@
 function checkScope() {
-  let scope = 'blockScope';
+  // let scope = 'blockScope';
+  var scope = 'blockScope';
   return scope;
 }
 

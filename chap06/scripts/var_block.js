@@ -1,6 +1,6 @@
 {
-  let scope = 'Hoge';
-  // var scope = 'Hoge';
+  // let scope = 'Hoge';
+  var scope = 'Hoge';
 }
 
 console.log(scope);
