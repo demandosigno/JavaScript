@@ -12,4 +12,4 @@ function sum(...nums) {
   return result;
 }
 
-console.log(sum());
+console.log(sum('a'));

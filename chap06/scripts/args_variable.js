@@ -1,4 +1,5 @@
 function sum(...nums) {
+  console.log(nums);
   let result = 0;
   for (let num of nums) {
     if (typeof num !== 'number') {
