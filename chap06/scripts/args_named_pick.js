@@ -1,6 +1,6 @@
-function show({name}) {
+function show({ name }) {
   console.log(name);
-};
+}
 
 let member = {
   mid: 'Y0001',

@@ -5,11 +5,11 @@ function arrayWalk(data, callback) {
 }
 
 let list = [1, 2, 4, 8, 16];
-arrayWalk(
-  list,
-  function (value, key) {
-    console.log(`${key}：${value}`);
-  }
-);
+// arrayWalk(
+//   list,
+//   function (value, key) {
+//     console.log(`${key}：${value}`);
+//   }
+// );
 
-// arrayWalk(list, (value, key) => console.log(`${key}：${value}`));
+arrayWalk(list, (value, key) => console.log(`${key}：${value}`));
