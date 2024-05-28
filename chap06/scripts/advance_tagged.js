@@ -1,3 +1,4 @@
+// 与えられた文字列をエスケープ処理
 function escapeHtml(str) {
   if (!str) { return ''; }
   str = str.replaceAll(/&/g, '&amp;');
@@ -8,6 +9,7 @@ function escapeHtml(str) {
   return str;
 }
 
+// 分解されたtemplatesとvaluesを順に連結（valuesはescapeHtml関数でエスケープ）
 function e(templates, ...values) {
   let result = '';
   for (let [i, temp] of templates.entries()) {
